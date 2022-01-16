@@ -1,4 +1,4 @@
-country-city-list
+countries-state-list
 ==============================
 Basic library for Country, State
 
@@ -9,7 +9,7 @@ https://github.com/dr5hn/countries-states-cities-database<br>
 For any data related issue, you can raise a Issue [here](https://github.com/dr5hn/countries-states-cities-database/issues/new).
 
 # Install
-`npm i country-city-list`
+`npm i countries-state-list`
 
 # Usage
 
@@ -18,20 +18,20 @@ For any data related issue, you can raise a Issue [here](https://github.com/dr5h
    
      ```js
 	// Latest version - v3.0.0 with Tree Shaking to reduce bundle size
-	import { Country, State, City }  from 'country-city-list';
+	import { Country, State, City }  from 'countries-state-list';
 	console.log(Country.getAllCountries())
 	console.log(State.getAllStates())
 
      // Import Interfaces`
-	 import { ICountry, IState, ICity } from 'country-city-list'
+	 import { ICountry, IState, ICity } from 'countries-state-list'
 	 
      ```
   - AMD Module usage
   
     ```js
 	// Latest version - v3.0.0
-	let Country = require('country-city-list).Country;
-	let State = require('country-city-list').State;
+	let Country = require('countries-state-listt).Country;
+	let State = require('countries-state-list').State;
 
 	console.log(Country.getAllCountries())
 	console.log(State.getAllStates())
@@ -44,13 +44,13 @@ For any data related issue, you can raise a Issue [here](https://github.com/dr5h
   - ES6 Module usage
    
      ```js
-     import csc from 'country-city-list';
+     import csc from 'countries-state-list';
      ```
 
   - AMD Module usage
   
     ```js
-    let csc = require('country-city-list').default;
+    let csc = require('countries-state-list').default;
     ```
 
 # Docs
